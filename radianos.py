@@ -1,0 +1,10 @@
+import math
+n = int(input('Digite o valor do ângulo de seno'))
+n1 = int(input('Digite o valor do ângulo de cosseno'))
+n2 = int(input('Digite o valor do ângulo da tangente '))
+cos = math.cos(math.radians(n))
+seno = math.sin(math.radians(n1))
+tan = math.tan(math.radians(n2))
+print ('o valor do ângulo de seno é: {} , convertido em radiano é: {} '.format(n,seno))
+print('o valor do ângulo de cosseno é: {} , convertido em radiano é: {}'.format(n1, cos))
+print('o valor do ângulo da tangente é: {} , convertido em radiano é: {}'.format(n2, tan))
